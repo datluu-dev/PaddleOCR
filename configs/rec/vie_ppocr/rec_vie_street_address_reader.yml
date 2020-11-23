@@ -1,0 +1,13 @@
+TrainReader:
+  reader_function: ppocr.data.rec.dataset_traversal,SimpleReader
+  num_workers: 8
+  img_set_dir: /data/training/datluu/dataset_ocr/vn_add/train
+  label_file_path: /data/training/datluu/dataset_ocr/vn_add/rec_vie_train.txt
+  
+EvalReader:
+  reader_function: ppocr.data.rec.dataset_traversal,SimpleReader
+  img_set_dir: /data/training/datluu/dataset_ocr/vn_add/test
+  label_file_path: /data/training/datluu/dataset_ocr/vn_add/rec_vie_test.txt
+
+TestReader:
+  reader_function: ppocr.data.rec.dataset_traversal,SimpleReader

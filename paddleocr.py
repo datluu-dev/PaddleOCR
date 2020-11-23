@@ -66,6 +66,11 @@ model_urls = {
             'url':
             'https://paddleocr.bj.bcebos.com/20-09-22/mobile/jp/japan_ppocr_mobile_v1.1_rec_infer.tar',
             'dict_path': './ppocr/utils/japan_dict.txt'
+        },
+        'vie': {
+            'url':
+            'https://paddleocr.bj.bcebos.com/20-09-22/mobile/fr/french_ppocr_mobile_v1.1_rec_infer.tar',
+            'dict_path': './ppocr/utils/vie_dict.txt'
         }
     },
     'cls':

@@ -36,7 +36,7 @@ class CharacterOps(object):
             dict_character = list(self.character_str)
         # use the custom dictionary
         elif self.character_type in [
-                "ch", 'japan', 'korean', 'french', 'german'
+                "ch", 'japan', 'korean', 'french', 'german', 'vie'
         ]:
             character_dict_path = config['character_dict_path']
             add_space = False
